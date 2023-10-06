@@ -4,23 +4,15 @@
   "description": "Plugin to copy files in bun build step",
   "author": "joel.lof@icloud.com",
   "license": "MIT",
-  "dependencies": {
-    "bun-types": "1.0.3",
-    "typescript": "5.2.2"
-  },
-  "scripts": {
-    "deploy": "bun i && tsc && npm publish"
-  },
   "main": "index.ts",
-  "types": "index.d.ts",
   "files": [
-    "index.js",
-    "index.js.map",
     "index.ts",
-    "index.d.ts",
     "tsconfig.json",
     "package.json",
     "README.md",
     "LICENSE"
-  ]
+  ],
+  "devDependencies": {
+    "bun-types": "1.0.4"
+  }
 }

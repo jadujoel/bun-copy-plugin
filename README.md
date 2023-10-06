@@ -1,7 +1,7 @@
 
 # Bun Copy Plugin
 
-No nonsense copy file on bun build.
+No nonsense copy files plugin on bun build.
 
 [Github Repo](https://github.com/jadujoel/bun-copy-plugin)
 
