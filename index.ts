@@ -1,5 +1,5 @@
 /// <reference path="./node_modules/bun-types/types.d.ts" />
-import { BunPlugin } from 'bun';
+import type { BunPlugin } from 'bun';
 import type { Dirent } from 'node:fs';
 import { mkdir, readdir } from 'node:fs/promises';
 import { join } from 'node:path';
