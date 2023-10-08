@@ -13,6 +13,8 @@
   },
   "files": [
     "index.ts",
+    "copy.ts",
+    "esbuild.ts",
     "tsconfig.json",
     "package.json",
     "README.md",
