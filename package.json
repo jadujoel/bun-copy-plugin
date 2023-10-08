@@ -5,6 +5,12 @@
   "author": "joel.lof@icloud.com",
   "license": "MIT",
   "main": "index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./copy": "./copy.ts",
+    "./bun": "./index.ts",
+    "./esbuild": "./esbuild.ts"
+  },
   "files": [
     "index.ts",
     "tsconfig.json",
